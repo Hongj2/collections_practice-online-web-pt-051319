@@ -21,8 +21,8 @@ end
 
 def kesha_maker (array)
  array =  array.each {|element|
- element.slice!(2)
- element.insert(2,"$")
+ 
+ element.insert(element(2),"$")
   }
   array
 end
